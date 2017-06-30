@@ -1,3 +1,5 @@
+/* ========== Global ========== */
+
 html {
   font-size: 18px;
   font-family: Helvetica;
@@ -93,4 +95,51 @@ html {
 
 #navmenu ul > li {
   margin: 0.75rem 0;
+}
+
+/* ========== Main section ========== */
+
+main .row.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ========== Main section - products ========== */
+
+#products {
+  margin: 3rem auto;
+}
+
+#products .product {
+  background-color: black;
+  color: white;
+  width: 30%;
+  border: 4px solid black;
+}
+
+#products .product > .productimg {
+  background-color: white;
+  padding: 2rem 0;
+}
+
+#products .product > .productimg > img {
+  height: 9rem;
+}
+
+#products .product > .productdesc {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+/* ========== Main section - Location and hours ========== */
+
+#contactinfo .column {
+  width: 35%;
+}
+
+#contactinfo .colheader {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  width: 100%;
 }
