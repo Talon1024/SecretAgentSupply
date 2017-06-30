@@ -120,15 +120,15 @@ main .row.container {
 #products .product > .productimg {
   background-color: white;
   padding: 2rem 0;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#products .product > .productimg > div {
-  height: 9rem;
+#products .product > .productimg > img {
+  max-height: 9rem;
   width: 50%;
-  margin: 0 auto;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #products .product > .productdesc {
@@ -136,15 +136,6 @@ main .row.container {
   text-align: center;
 }
 
-#pen {
-  background-image: url("images/pen.png");
-}
-#watch {
-  background-image: url("images/watch.png");
-}
-#glasses {
-  background-image: url("images/glasses.png");
-}
 /* ========== Main section - Location and hours ========== */
 
 #contactinfo .column {
