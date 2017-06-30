@@ -145,7 +145,7 @@ main .row.container {
 
 #products .product > .productimg > img {
   max-height: 9rem;
-  width: 50%;
+  max-width: 50%;
 }
 
 #products .product > .productdesc {
