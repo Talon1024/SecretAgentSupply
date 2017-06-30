@@ -89,16 +89,29 @@ html {
   align-content: center;
 }
 
-#navmenu .min {
-  display: none;
-}
-
 #navmenu .min > ul {
   justify-content: center;
 }
 
 #navmenu ul > li {
   margin: 0.75rem 0;
+}
+
+@media only screen and (min-width: 961px) {
+  #navmenu .full {
+    display: block;
+  }
+  #navmenu .min {
+    display: none;
+  }
+}
+@media only screen and (max-width: 960px) {
+  #navmenu .full {
+    display: none;
+  }
+  #navmenu .min {
+    display: block;
+  }
 }
 
 /* ========== Main section ========== */
