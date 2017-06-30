@@ -122,8 +122,13 @@ main .row.container {
   padding: 2rem 0;
 }
 
-#products .product > .productimg > img {
+#products .product > .productimg > div {
   height: 9rem;
+  width: 50%;
+  margin: 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #products .product > .productdesc {
@@ -131,6 +136,15 @@ main .row.container {
   text-align: center;
 }
 
+#pen {
+  background-image: url("images/pen.png");
+}
+#watch {
+  background-image: url("images/watch.png");
+}
+#glasses {
+  background-image: url("images/glasses.png");
+}
 /* ========== Main section - Location and hours ========== */
 
 #contactinfo .column {
@@ -142,4 +156,5 @@ main .row.container {
   color: white;
   padding: 1rem 2rem;
   width: 100%;
+  margin-bottom: 0.5rem;
 }
