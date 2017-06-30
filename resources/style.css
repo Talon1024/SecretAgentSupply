@@ -6,10 +6,14 @@ html {
 }
 
 .container {
-  width: 960px;
   margin: 0 auto;
 }
 
+@media only screen and (min-width: 961px) {
+  .container {
+    width: 960px;
+  }
+}
 @media only screen and (max-width: 960px) {
   .container {
     width: 100%;
@@ -138,6 +142,10 @@ main .row.container {
 
 /* ========== Main section - Location and hours ========== */
 
+#contactinfo {
+  margin: 3rem auto 4rem;
+}
+
 #contactinfo .column {
   width: 35%;
 }
@@ -145,7 +153,20 @@ main .row.container {
 #contactinfo .colheader {
   background-color: black;
   color: white;
-  padding: 1rem 2rem;
   width: 100%;
   margin-bottom: 0.5rem;
+}
+
+#contactinfo .colheader > h3 {
+  padding: 1rem 2rem;
+}
+
+/* ========== Footer ========== */
+
+#mainfooter {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 5rem;
+  align-items: center;
 }
