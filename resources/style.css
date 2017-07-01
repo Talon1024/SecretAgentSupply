@@ -7,13 +7,15 @@ html {
 
 .container {
   margin: 0 auto;
+  width: 960px;
 }
-
+/*
 @media only screen and (min-width: 961px) {
   .container {
     width: 960px;
   }
 }
+*/
 @media only screen and (max-width: 960px) {
   .container {
     width: 100%;
@@ -40,6 +42,12 @@ html {
 #headlogo > img {
   height: 1.5rem;
   margin: 0 1rem 0 0.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  #headtitle {
+    font-size: 0.9rem;
+  }
 }
 
 /* ========== Highlight ========== */
@@ -89,6 +97,10 @@ html {
   align-content: center;
 }
 
+#navmenu .min {
+  display: none;
+}
+
 #navmenu .min > ul {
   justify-content: center;
 }
@@ -96,7 +108,7 @@ html {
 #navmenu ul > li {
   margin: 0.75rem 0;
 }
-
+/*
 @media only screen and (min-width: 961px) {
   #navmenu .full {
     display: block;
@@ -105,7 +117,8 @@ html {
     display: none;
   }
 }
-@media only screen and (max-width: 960px) {
+*/
+@media only screen and (max-width: 1024px) {
   #navmenu .full {
     display: none;
   }
@@ -151,6 +164,16 @@ main .row.container {
 #products .product > .productdesc {
   margin: 0.5rem 0;
   text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  #products .product {
+    width: 47%;
+  }
+
+  #glasses {
+    display: none;
+  }
 }
 
 /* ========== Main section - Location and hours ========== */
