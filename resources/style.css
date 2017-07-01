@@ -206,3 +206,54 @@ main .row.container {
   height: 5rem;
   align-items: center;
 }
+
+/* ========== Media query - tablet ========== */
+
+/* ========== Media query - mobile ========== */
+
+@media only screen and (max-width: 470px) {
+  #headsection header > .container {
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  #headtitle {
+    display: none;
+  }
+  .highlight .description {
+    padding: 1rem 2rem;
+    margin-top: 10rem;
+    width: 100%;
+  }
+  .highlight .description > h1 {
+    font-size: 0.77rem;
+  }
+  .highlight .description > h2 {
+    font-size: 1rem;
+  }
+  .highlight {
+    height: 15rem;
+  }
+  #products {
+    justify-content: center;
+  }
+  #products .product {
+    width: 90%;
+  }
+  #watch {
+    display: none;
+  }
+  #contactinfo {
+    display: block;
+    width: 90%;
+  }
+  #contactinfo .column {
+    width: 100%;
+  }
+  #location {
+    margin-bottom: 0.5rem;
+  }
+  .copyright {
+    text-align: center;
+  }
+}
